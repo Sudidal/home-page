@@ -16,6 +16,14 @@ main {
   gap: 100px;
 }
 
+.social-links {
+  display: flex;
+  gap: 30px;
+}
+.social-links svg {
+  width: 30px;
+}
+
 .aboutme-section {
   display: flex;
   align-items: center;
@@ -34,7 +42,6 @@ main {
 .aboutme-section > img {
   width: 40%;
   height: fit-content;
-  object-fit: cover;
 }
 .aboutme-section .info-window {
   width: 60%;
@@ -68,6 +75,9 @@ main {
   flex-direction: column;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.445);
 }
+.card h5 {
+  font-size: 15px;
+}
 .card > img {
   width: 100%;
   object-fit: cover;
@@ -77,6 +87,20 @@ main {
   padding: 20px;
   flex: 1;
 }
+.card .card-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.card-heading {
+  gap: 20px;
+}
+.card-heading .social-links {
+  gap: 20px;
+}
+.card-heading .icon svg {
+  width: 23px;
+} 
 
 footer {
   display: flex;
@@ -102,12 +126,4 @@ footer .picture {
   height: 450px;
   object-fit: cover;
   margin-left: 50px;
-}
-
-.social-links {
-  display: flex;
-  gap: 30px;
-}
-.social-links svg {
-  width: 30px;
 }
