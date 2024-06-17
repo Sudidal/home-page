@@ -39,6 +39,11 @@ main {
     transform: scale(1.2);
   }
 }
+.text-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
 .aboutme-section {
   display: flex;
@@ -146,6 +151,10 @@ footer .left-part {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+footer .left-part .text-with-icon svg {
+  width: 30px;
+  color: white;
 }
 footer .title {
   margin-bottom: 20px;
